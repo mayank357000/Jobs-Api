@@ -2,7 +2,7 @@ require('dotenv').config();
 require('express-async-errors');
 const express = require('express');
 const app = express();
-const authenticateUser=require('../starter/middleware/authentication');
+const authenticateUser=require('./middleware/authentication');
 
 // extra security packages
 const helmet = require('helmet');
